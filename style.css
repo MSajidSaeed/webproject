@@ -1,0 +1,150 @@
+.navbar-expand-lg  {
+    background-color: floralwhite;
+    font-weight: bolder;
+       
+}
+
+/* .navbar-collapse{
+    background-color: red;
+    
+} */
+
+
+
+.carousel-item {
+height: 400px;
+}
+
+
+
+.fa-shipping-fast, .customer, .quality{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: aquamarine !important;
+}
+
+
+.mainCard{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+.ho{ display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: start;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-top: 50px;
+    line-height: 2em;
+    font-size: 14px;
+    
+    background-color:royalblue;
+    color: floralwhite;
+    height: 300px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.lnk{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.hoff, .lnk, .con {
+    /* background-color: blueviolet;
+    border: red solid; */
+    width: 350px;
+    
+}
+
+.con{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: lighter;
+
+}
+
+.cop{
+    display: flex;
+    flex: auto;
+    background-color:royalblue;
+    font-size: 13px;
+    color: whitesmoke;
+    border:royalblue solid;
+    padding-left: 25px;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-block-end: 10px;
+   
+}
+
+.copz{
+    margin-top: 150px;
+}
+
+
+.card-group, .row-cols-1{
+    margin-top: 10px;
+}
+
+
+
+/* .cnt-us{
+    
+} */
+
+
+@media screen and (max-width: 600px) {
+
+    .card1, .card2, .card3{
+        width: 100%;
+    }
+    /* body {
+      background-color: lightgreen;
+    } */
+  }
+
+
+
+.card1, .card2, .card3 {
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color:floralwhite;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.about, .cont-us{
+    display: flex;
+    background-color:white;
+    box-shadow: 2px 4px 5px whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    height: 300px;
+    margin-bottom: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-size: 1.5em;
+    
+    
+}
+
+
